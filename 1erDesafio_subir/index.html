@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html leng="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" href="style.css"/> 
+        <title>1er desafio</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">Encriptar y desencriptar</h1>
+            <h2>Alura 1er desafio</h2>
+        </header>
+        <form id="Formulario">
+            <div>
+                <div class="ContenedorTexto">
+                    <div class="textoCss">
+                        <textarea rows="10" cols="50" name="texto1" id="texto1" placeholder="Ingrese el texto a encriptar"></textarea>
+                        <textarea rows="10" cols="50" name="texto2" id="texto2" placeholder="Ingrese el texto a desencriptar"></textarea>
+                    </div>
+                </div>
+                <!--botones-->
+                <div class="contenedorDeBotones">
+                    <button type="button" id="EncriptarBoton" name="EncriptarBoton" class="BotonCss" onclick=encriptar()>Encriptar</button>
+                    <div class="ocultarBotonDesencriptado" id="ocultarBotonDesencriptado">
+                        <button type="button" id="DesencriptarBoton" name="DesencriptarBoton" class="BotonCss" onclick=desencriptar()>Desencriptar</button>
+                    </div> 
+                    
+                    <div class="ocultarBoton" id="ocultarBoton">
+                        <button type="button" id="CopiarBoton" class="BotonCss" onclick=HabilitarDesencriptar()>Copiar</button>
+                    </div>
+                </div><!--fin de contenedor de botones-->
+            </div>
+        </form>
+    </body>
+</html>

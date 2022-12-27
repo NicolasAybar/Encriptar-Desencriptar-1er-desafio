@@ -1,0 +1,44 @@
+.ocultarBoton{
+    display: none;
+}
+.ocultarBotonDesencriptado{
+    display: none;
+}
+header{
+  padding: 50px;
+  background-color: aquamarine ;
+  text-align: center;
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
+.ContenedorTexto{
+  display: flex;
+  background-color: turquoise;
+  flex: 30px;
+  justify-content: center;
+}
+/*.textoCss{
+  height: 278px;
+  width: 195px
+}*/
+
+.contenedorDeBotones{
+  display: flex;
+  background-color: aqua;
+  flex: 70px;
+  padding: 8px;
+  justify-content: center;
+}
+.BotonCss {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .BotonCss:hover {
+    background-color: RoyalBlue;
+  }
